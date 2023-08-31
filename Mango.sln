@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{1DB24221-3D9B-4B94-BB8E-9A2EF669042A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{479D7CE2-FB30-4075-B4AF-69E0EC5DFF85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{3887060D-664B-42C5-AB81-CA7B9A74398D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1A62BE39-43FD-4834-B8F3-0623F8F81E31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.CouponAPI", "Mango.Services.CouponAPI\Mango.Services.CouponAPI.csproj", "{26B32226-A2D0-41E6-B86A-C94C804FB7FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Web", "Mango.Web\Mango.Web.csproj", "{A2F4301D-B5CB-48F9-A1C1-3C8269F73321}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26B32226-A2D0-41E6-B86A-C94C804FB7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B32226-A2D0-41E6-B86A-C94C804FB7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B32226-A2D0-41E6-B86A-C94C804FB7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B32226-A2D0-41E6-B86A-C94C804FB7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F4301D-B5CB-48F9-A1C1-3C8269F73321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F4301D-B5CB-48F9-A1C1-3C8269F73321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F4301D-B5CB-48F9-A1C1-3C8269F73321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F4301D-B5CB-48F9-A1C1-3C8269F73321}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26B32226-A2D0-41E6-B86A-C94C804FB7FA} = {1A62BE39-43FD-4834-B8F3-0623F8F81E31}
+		{A2F4301D-B5CB-48F9-A1C1-3C8269F73321} = {1DB24221-3D9B-4B94-BB8E-9A2EF669042A}
+	EndGlobalSection
+EndGlobal
